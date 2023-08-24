@@ -1,0 +1,93 @@
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  button{
+    border: none;
+    padding: 14px 22px;
+    margin: 10px;
+  }
+  
+  body{
+    background-color: #f0f0f0;
+  
+  }
+  .hidden{
+    visibility: hidden;
+  }
+  .btn{
+    display: inline-block;
+    min-width: 350px;
+    max-width: 510px;
+    background-color: rgb(94, 94, 94);
+    padding: 15px;
+  
+  }
+  input,span{
+    display: inline-block; 
+    text-align: right; 
+    width: 95%;
+    color: rgb(255, 255, 255);
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  input{
+    background-color:rgb(221, 220, 220);
+    border: none;
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  span{
+    font-size: 20px;
+    height: 40px;
+    overflow: hidden;
+  }
+  
+  .equal {
+    width:120px;
+    background-color: rgb(45, 135, 191);
+  }
+  
+  .clr {
+
+    background-color: rgb(45, 135, 191);
+  }
+  
+  .div {
+    font-size: 18px;
+    color: blue;
+  }
+  .mul {
+    font-size: 18px;
+    color: blue;
+  }
+  .mod {
+    font-size: 18px;
+    color: blue;
+  }
+  .plus {
+    font-size: 18px;
+    color: blue;
+  }
+  .sub {
+    font-size: 18px;
+    color: blue;
+  }
